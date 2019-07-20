@@ -1,0 +1,148 @@
+#body {
+	padding: 4em;
+	min-height: 100%;
+	margin-bottom: -50px;
+}
+
+#table1 {
+	min-height: 10%;
+	text-align: center;
+}
+
+#container {
+	width: 50%;
+	margin-top: 100px;
+	min-height: 88%;
+}
+
+#container2 {
+	width: 100%;
+	margin-top: 50px;
+	min-height: 90%;
+	margin-bottom: -70px;
+}
+
+#grad1 {
+	min-height: 100%;
+	width: 100%;
+	background-image: linear-gradient(#040B65, #79ABF0, #040B65);
+	background-attachment: fixed;
+	position: absolute;
+}
+	
+.footer {
+	height: 50px;
+	margin-top: -30px;
+   	width: 100%;
+   	background-color: #040B65;
+   	color: white;
+   	text-align: center;
+}
+	
+.push {
+	height: 10px;
+}
+
+.clearfix {
+  overflow: auto;
+  margin-top: auto;
+}
+.image {
+	float: right;
+	display: block;
+	margin-top: 13px;
+}
+
+.border {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid darkorange;
+    border-radius: 8px;
+  }
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #1A1062;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 7px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+div.a{
+	border: 1.5px solid #FF8845;
+	padding: 5px;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+	
+p.a {
+	color: #F5F5EB;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 42pt;
+	font-weight: bold;
+	text-align: center;
+}
+		
+p.b {
+	color: #F9C335;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20pt;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+p.c {
+	color: #FBF9F9;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 16pt;
+	text-align: left;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+p.d {
+	color: #FCF4B4;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 14pt;
+	text-align: left;
+	
+}
+
+p.e {
+	color: #B8F079;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 36pt;
+	text-align: center;
+	
+}
+
+
+		
